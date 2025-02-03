@@ -62,7 +62,7 @@ export const ListOfPersons = () => {
         {currentPersons.length > 0 ? (
           currentPersons.map((person) => (
             <div key={person.id} className="person-wrapper">
-              <Link to={`/detail/${person.id}`} state={person} className="person-card">
+              <Link to={`/testTaskSpaceApp/detail/${person.id}`} state={person} className="person-card">
                 <img src={person.image} alt={person.name} />
                 <h3>{person.name}</h3>
               </Link>

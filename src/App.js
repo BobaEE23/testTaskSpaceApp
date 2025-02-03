@@ -9,9 +9,9 @@ export const App =()=> {
   return (
     <FavouriteProvider>
       <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/detail/:id" element={<Detail/>}/>
-        <Route path="/favourite" element={<Favourite/>}/>
+        <Route path="/testTaskSpaceApp/" element={<Main/>}/>
+        <Route path="/testTaskSpaceApp/detail/:id" element={<Detail/>}/>
+        <Route path="/testTaskSpaceApp/favourite" element={<Favourite/>}/>
       </Routes>
     
     </FavouriteProvider>
