@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BobaEE23/testTaskSpaceApp/static/css/main.a7847d2f.css",
+    "main.js": "/BobaEE23/testTaskSpaceApp/static/js/main.97ddd953.js",
+    "index.html": "/BobaEE23/testTaskSpaceApp/index.html",
+    "main.a7847d2f.css.map": "/BobaEE23/testTaskSpaceApp/static/css/main.a7847d2f.css.map",
+    "main.97ddd953.js.map": "/BobaEE23/testTaskSpaceApp/static/js/main.97ddd953.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7847d2f.css",
+    "static/js/main.97ddd953.js"
+  ]
+}
