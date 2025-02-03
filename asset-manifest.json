@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/testTaskSpaceApp/static/css/main.a7847d2f.css",
-    "main.js": "/testTaskSpaceApp/static/js/main.97ddd953.js",
+    "main.js": "/testTaskSpaceApp/static/js/main.9a98258d.js",
     "index.html": "/testTaskSpaceApp/index.html",
     "main.a7847d2f.css.map": "/testTaskSpaceApp/static/css/main.a7847d2f.css.map",
-    "main.97ddd953.js.map": "/testTaskSpaceApp/static/js/main.97ddd953.js.map"
+    "main.9a98258d.js.map": "/testTaskSpaceApp/static/js/main.9a98258d.js.map"
   },
   "entrypoints": [
     "static/css/main.a7847d2f.css",
-    "static/js/main.97ddd953.js"
+    "static/js/main.9a98258d.js"
   ]
 }
