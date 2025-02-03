@@ -1,0 +1,324 @@
+.mainHeader {
+  width: 100%;
+  background: linear-gradient(90deg, #4caf50, #1e88e5); /* Градиентный фон */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: "Arial", sans-serif;
+}
+
+.mainHeader h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.inputMain {
+  width: 95vw; 
+  height: 50px; 
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.inputMain:focus {
+  background: #f0f0f0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.list-of-persons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-content: center;
+  padding: 20px;
+}
+
+.person-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.person-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.person-card {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.person-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.fav-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.fav-button:hover {
+  background: #e64a19;
+}
+.MainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px; 
+}
+
+.fav-button-link {
+  text-decoration: none;
+}
+
+.fav-button {
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: #ff9800;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fav-button:hover {
+  background: #f57c00;
+  transform: scale(1.05);
+}
+
+.fav-button:active {
+  background: #e65100;
+  transform: scale(0.98);
+}
+
+.list-of-persons-container {
+  position: relative;
+  padding-top: 60px;
+}
+
+
+.notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 1000;
+  animation: slideDown 0.5s ease-out;
+}
+
+@keyframes slideDown {
+  0% {
+    top: -60px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+
+.notification.hide {
+  opacity: 0;
+}
+
+
+.fav-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #ff5e57;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.fav-button:hover {
+  background-color: #ff3e2f;
+}
+
+.person-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.person-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.list-of-persons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.pagination button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 16px;
+}
+
+
+
+/* детали */
+
+
+/* Основной контейнер страницы детали */
+.detail-page {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Заголовок */
+.detail-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.detail-page img {
+  width: 100%;
+  height: 400px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 3px solid #ddd;
+}
+
+
+.detail-page p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+
+.detail-page p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+
+.detail-page .status {
+  color: #ff5733; 
+}
+
+.detail-page .species {
+  color: #2196F3; 
+}
+
+.detail-page .gender {
+  color: #9C27B0; 
+}
+
+.detail-page .origin {
+  color: #FFC107; 
+}
+
+.detail-page .location {
+  color: #00BCD4; 
+}
+
+.detail-page .episode-count {
+  color: #673AB7; 
+}
+
+
+.detail-page a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.detail-page a:hover {
+  text-decoration: underline;
+}
+
+
+.detail-page .back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.detail-page .back-button:hover {
+  background-color: #45a049;
+}
